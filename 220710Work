@@ -12,3 +12,4 @@ public class DemoWork {
 		}
 		System.out.println("程式執行結束");		
 	}
+}
