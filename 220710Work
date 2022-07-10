@@ -1,0 +1,14 @@
+public class DemoWork {
+	public static void main(String[] args) {
+		java.util.Scanner scan = new java.util.Scanner(System.in);
+		System.out.println("請輸入整數:");
+		int Numbers = scan.nextInt();
+		
+		
+		if ((Numbers % 2) == 0) {
+			System.out.println("數字"+Numbers+"是偶數");
+		}else {
+			System.out.println("數字"+Numbers+"是奇數");
+		}
+		System.out.println("程式執行結束");		
+	}
