@@ -6,9 +6,10 @@ public class Work220717_3 {
 		java.util.Scanner scan = new java.util.Scanner(System.in);
 		System.out.println("請從1~100中輸入一個整數:");
 		int Numbers = scan.nextInt();
+		System.out.println("在1~100中"+Numbers+"的因數有");
 		for (int i=1 ; i<=100 ; i++) {
-			if ((i % Numbers) == 0) {
-				System.out.println("在1~100中"+Numbers+"是"+i+"的因數");
+			if ((Numbers % i) == 0) {
+				System.out.print(i+",");
 			}
 		}System.out.println();
 	}
