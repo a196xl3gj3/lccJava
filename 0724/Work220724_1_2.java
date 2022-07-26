@@ -1,4 +1,4 @@
-
+// 三維陣列，做檢查數字的位置。
 public class Work220724_1_2 {
 	public static void main(String[] args){
 		// 從外部輸入數字
