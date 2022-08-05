@@ -14,7 +14,7 @@ public class WorkPK220731_1 {
 		round2(t);
 		
 		if (t%12 == 0){
-			Special(t,z);
+			Special(z);
 		}else if (t%6 == 0){
 			round3(t);
 		}else {
@@ -87,7 +87,7 @@ public class WorkPK220731_1 {
 		
 	}
 	// 特殊狀況
-	static void Special(int t,int z) {
+	static void Special(int z) {
 		// 建立武士、舞者
 		Warrior wa = new Warrior("索隆",1000,500);
 		Dancer da = new Dancer("娜美",800,650);
