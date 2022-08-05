@@ -4,11 +4,11 @@ public class WorkPK220731_1 {
 	public static void main(String[] args) {
 
 		// 輸入兩個1-100的亂數
-		int  t= 48;
-//		t = (int) (Math.random() * 100) + 1;
+		int  t= 0;
+		t = (int) (Math.random() * 100) + 1;
 		System.out.println("幸運數字為:" + t);
-		int z = 5;
-//		z = (int) (Math.random() * 5) + 1;
+		int z = 0;
+		z = (int) (Math.random() * 5) + 1;
 		
 		round1(t);
 		round2(t);
